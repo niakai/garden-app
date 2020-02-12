@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    {{!-- <script src="js/jquery-1.11.0.js"> </script> --}}
+    {{!-- <script src="js/bootstrap.js"> </script>
+	<script src="js/hci-friends.js"></script> --}}
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" />
+    <style>
+        .avatar {
+            vertical-align: middle;
+            width: 110px;
+            height: 110px;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+
+        #ZZ_Plant_Zanzibar_Gem {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            overflow: visible;
+            width: 165px;
+            white-space: nowrap;
+            text-align: center;
+            font-family: Didot;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 37px;
+            color: rgba(0, 0, 0, 1);
+            letter-spacing: 0.4px;
+        }
+
+        .plant-title-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .plants-wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .plant-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dashboard-header {}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="dashboard-header">
+            <span>My Plant Profiles</span>
+
+        </div>
+
+
+        <div class="plants-wrapper">
+
+            {{#each plants}}
+            <div class="plant-wrapper">
+                <img class="avatar" src={{imagePath}} alt="">
+                <span>{{name}}</span>
+            </div>
+            {{/each}}
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
