@@ -10,7 +10,11 @@
             "essential-3": "Allow solid to become dry to touch between watering days",
             "whatNotToDo-1": "Does not do well in cold temp (45 F and below",
             "whatNotToDo-2": "Avoid harsh, direct sunlight ",
-            "whatNotToDo-3": "Avoid over watering! This plant does better with less water "
+            "whatNotToDo-3": "Avoid over watering! This plant does better with less water ",
+            "schedules": {
+                "note": "(1 cup of water ever 2 - 3 weeks)",
+                "days": ["Wednesday"]
+            }
         },
         {
             "name": "Bell Pepper",
@@ -22,7 +26,11 @@
             "essential-3": "Allow solid to become dry to touch between watering days",
             "whatNotToDo-1": "Does not do well in cold temp (45 F and below",
             "whatNotToDo-2": "Avoid harsh, direct sunlight ",
-            "whatNotToDo-3": "Avoid over watering! This plant does better with less water "
+            "whatNotToDo-3": "Avoid over watering! This plant does better with less water ",
+            "schedules": {
+                "note": "(Water 1 - 2 inches per week)",
+                "days": ["Tuesday", "Thursday", "Saturday"]
+            }
         },
         {
             "name": "AA Plant",
@@ -34,7 +42,11 @@
             "essential-3": "Allow solid to become dry to touch between watering days",
             "whatNotToDo-1": "Does not do well in cold temp (45 F and below",
             "whatNotToDo-2": "Avoid harsh, direct sunlight ",
-            "whatNotToDo-3": "Avoid over watering! This plant does better with less water "
+            "whatNotToDo-3": "Avoid over watering! This plant does better with less water ",
+            "schedules": {
+                "note": "(Water = 1 inches per week)",
+                "days": ["Sunday"]
+            }
         }
     ]
 }
