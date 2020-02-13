@@ -18,6 +18,15 @@
 
     <script>
         /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
 
         const openNav = () => {
             document.getElementById("mySidebar").style.width = "100%"
@@ -32,12 +41,25 @@
             $("#calendar").css({ "visibility": "visible" });
         }
 
+
         $(document).ready(function () {
             // Handler for .ready() called.
             var calendarEl = document.getElementById('calendar');
 
+
             var calendar = new FullCalendar.Calendar(calendarEl, {
-                plugins: ['dayGrid']
+                plugins: ['dayGrid'],
+                events: [{
+                    start: '2020-02-07',
+                    end: '2020-02-07',
+                    title: 'ZZ Plant',
+                    backgroundColor: getRandomColor()
+                }, {
+                    start: '2020-02-09',
+                    end: '2020-02-09',
+                    title: 'Bell Pepper',
+                    backgroundColor: getRandomColor()
+                }]
             });
             calendar.render();
 
