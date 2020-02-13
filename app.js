@@ -10,7 +10,11 @@ var handlebars = require("express3-handlebars");
 // routes
 var index = require("./routes/index.js");
 var plant = require("./routes/plant.js");
+<<<<<<< Updated upstream
 var calendar = require("./routes/calendar.js");
+=======
+var login = require("./routes/login.js");
+>>>>>>> Stashed changes
 
 var app = express();
 
@@ -36,6 +40,8 @@ if ("development" == app.get("env")) {
 
 app.get("/", index.view);
 app.get("/calendar", calendar.view);
+
+app.get("/login", login.view);
 
 app.get("/plant/:id", plant.view);
 
