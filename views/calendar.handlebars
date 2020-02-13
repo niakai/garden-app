@@ -40,7 +40,13 @@
                 plugins: ['dayGrid']
             });
             calendar.render();
+
+            $(".dashboad-link").click(() => {
+                window.location.href = "/"
+            });
         })
+
+
 
     </script>
 
@@ -131,8 +137,8 @@
     <!-- Sidebar -->
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">My Plant Profiles</a>
-        <a href="#">Calendar</a>
+        <a class="dashboad-link">My Plant Profiles</a>
+        <a class="calendar-link">Calendar</a>
     </div>
 
     <div id="main">
