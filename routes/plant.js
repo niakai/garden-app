@@ -2,18 +2,17 @@
  * GET home page.
  */
 
-var data = require('../data.json');
+var data = require("../data.json");
 
 exports.view = function(req, res) {
+    let plantId = null;
 
-    console.log(req.params)
-    let plantName = null;
-    if (req.params.name) {
-        plantName = req.params.name;
-
+    if (req.params.id) {
+        plantId = req.params.id;
     }
 
-    console.log(plantName);
-
-    res.render("plant", data);
+    res.render(
+        "plant",
+        data.plants.find(plant => plant.id === plantId) // finding the plant based on their assigned unique id
+    );
 };
