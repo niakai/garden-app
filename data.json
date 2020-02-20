@@ -46,6 +46,7 @@
             "id": "3",
             "description": "Silet Gem",
             "imagePath": "/images/cactus.jpg",
+            "imagePath1":"/images/cactus.jpg",
             "essential-1": "Does best in room temp (60 - 70  F",
             "essential-2": "Grows best in bright filtered light",
             "essential-3": "Allow solid to become dry to touch between watering days",
