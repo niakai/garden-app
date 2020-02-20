@@ -29,7 +29,7 @@
 
 
         const openNav = () => {
-            document.getElementById("mySidebar").style.width = "100%"
+            document.getElementById("mySidebar").style.width = "70%"
             $("#calendar").css({ "visibility": "hidden" });
 
         }
@@ -66,9 +66,11 @@
             $(".dashboad-link").click(() => {
                 window.location.href = "/"
             });
+
+            $(".login-link").click(() => {
+                window.location.href = "/login"
+            });
         })
-
-
 
     </script>
 
@@ -161,6 +163,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a class="dashboad-link">My Plant Profiles</a>
         <a class="calendar-link">Calendar</a>
+        <a class="login-link">Login</a>
     </div>
 
     <div id="main">
