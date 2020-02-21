@@ -42,15 +42,42 @@
         }
 
         // Get the events
-        const getEvents = () => {
-
-        }
 
 
         $(document).ready(function () {
             // Handler for .ready() called.
             var calendarEl = document.getElementById('calendar');
 
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                plugins: ['dayGrid'],
+                events: [{
+                    start: '2020-02-07',
+                    end: '2020-02-07',
+                    title: 'ZZ Plant',
+                    backgroundColor: getRandomColor()
+                }, {
+                    start: '2020-02-09',
+                    end: '2020-02-09',
+                    title: 'Bell Pepper',
+                    backgroundColor: getRandomColor()
+                }],
+                views: {
+                    basic: {
+                        columnFormat: 'ddd'
+                    },
+                    agenda: {
+                        columnFormat: 'ddd'
+                    },
+                    week: {
+                        columnFormat: 'ddd'
+                    },
+                    day: {
+                        columnFormat: 'ddd'
+                    }
+                }
+            });
+            calendar.render();
 
             $(".dashboad-link").click(() => {
                 window.location.href = "/"
@@ -59,6 +86,9 @@
             $(".login-link").click(() => {
                 window.location.href = "/login"
             });
+
+
+
 
         })
 
@@ -119,9 +149,8 @@
             cursor: pointer;
             background-color: #111;
             color: white;
-            padding: 5px 13px;
+            padding: 10px 15px;
             border: none;
-            border-radius: 10px;
         }
 
         .openbtn:hover {
@@ -145,28 +174,6 @@
                 font-size: 18px;
             }
         }
-
-        /* calendar styles */
-        .calendar-image-wrapper {
-            position: relative;
-        }
-
-        .calendar-image {
-            position: absolute;
-            width: 350px;
-            height: 250px;
-        }
-
-        .event-calendar {
-            position: absolute;
-            left: 10px;
-            top: 70px;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background-color: chartreuse;
-            z-index: 1;
-        }
     </style>
 </head>
 
@@ -180,23 +187,11 @@
     </div>
 
     <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <button class="openbtn" onclick="openNav()">&#9776; Garden App</button>
     </div>
 
     <!-- /#sidebar-wrapper -->
-    <div id='calendar'>
-        <div class="calendar-image-wrapper">
-
-            <img class="calendar-image" src="/images/calendar.png" alt="">
-
-
-            {{#each schedules}}
-          <div class=`event-calendar-${{day}}`></div>
-            {{/each}}
-
-
-        </div>
-    </div>
+    <div id='calendar'></div>
 
 </body>
 
