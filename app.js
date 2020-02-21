@@ -9,6 +9,7 @@ var handlebars = require("express3-handlebars");
 
 // routes
 var index = require("./routes/index.js");
+var DB = require("./routes/DB.js");
 var plant = require("./routes/plant.js");
 var calendar = require("./routes/calendar.js");
 var login = require("./routes/login.js");
@@ -35,11 +36,14 @@ if ("development" == app.get("env")) {
 }
 
 app.get("/", index.view);
-app.get("/calendar", calendar.view);
+app.get("/DB", DB.view);
 
+
+app.get("/calendar", calendar.view);
 app.get("/login", login.view);
 
 app.get("/plant/:id", plant.view);
+app.post("/plant/add", plant.add);
 
 // Example route
 // app.get('/users', user.list);

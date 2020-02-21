@@ -1,7 +1,7 @@
 {
     "plants": [
         {
-            "headimagePath": "/images/headimage.png", 
+            "headimagePath": "/images/headimage.png",
             "name": "ZZ Plant",
             "id": "1",
             "description": "Zanzibar Gem",
@@ -15,7 +15,7 @@
             "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
             "whatNotToDo-3": " Avoid harsh, direct sunlight ",
             "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
-            
+
             "schedules": {
                 "note": "(1 cup of water ever 2 - 3 weeks)",
                 "days": ["Wednesday", "Friday"]
@@ -35,7 +35,7 @@
             "whatNotToDo-2": " Do not keep your plant seedlings outside. Peppers seeds need warmth in order to germinate or grow properly",
             "whatNotToDo-3": " Do not keep your pepper in the shade, it loves lots of sunlight ",
             "whatNotToDo-4": " Do not transplant your bell pepper until you are sure the frosty season is over. Bell peppers must be in tempuratures above 50 degrees F once outdoors",
-            
+
             "schedules": {
                 "note": "(Water 1 - 2 inches per week)",
                 "days": ["Tuesday", "Thursday", "Saturday"]
@@ -53,10 +53,214 @@
             "whatNotToDo-1": "Does not do well in cold temp (45 F and below",
             "whatNotToDo-2": "Avoid harsh, direct sunlight ",
             "whatNotToDo-3": "Avoid over watering! This plant does better with less water ",
-            
+
             "schedules": {
                 "note": "(Water = 2 inches every other week)",
                 "days": ["Sunday"]
+            }
+        }
+    ],
+    "DB": [
+        {
+            "headimagePath": "/images/headimage.png",
+            "name": "ZZ Plant",
+            "id": "1",
+            "description": "Zanzibar Gem",
+            "imagePath": "/images/bell-pepper-small.png",
+            "imagePath1": "/images/bell-pepper-big.png",
+            "essential-1": "Need To Know: ",
+            "essential-2": "Does best in room temp (60 - 70  F)",
+            "essential-3": " Grows best in bright filtered light",
+            "essential-4": " Allow solid to become dry to touch between watering days",
+            "whatNotToDo-1": "What Not To Do: ",
+            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
+            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
+            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
+
+            "schedules": {
+                "note": "(1 cup of water ever 2 - 3 weeks)",
+                "days": ["Wednesday", "Friday"]
+            }
+        },
+        {
+            "headimagePath": "/images/headimage.png",
+            "name": "ZZ Plant",
+            "id": "2",
+            "description": "Zanzibar Gem",
+            "imagePath": "/images/bell-pepper-small.png",
+            "imagePath1": "/images/bell-pepper-big.png",
+            "essential-1": "Need To Know: ",
+            "essential-2": "Does best in room temp (60 - 70  F)",
+            "essential-3": " Grows best in bright filtered light",
+            "essential-4": " Allow solid to become dry to touch between watering days",
+            "whatNotToDo-1": "What Not To Do: ",
+            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
+            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
+            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
+
+            "schedules": {
+                "note": "(1 cup of water ever 2 - 3 weeks)",
+                "days": ["Wednesday", "Friday"]
+            }
+        },
+        {
+            "headimagePath": "/images/headimage.png",
+            "name": "ZZ Plant",
+            "id": "3",
+            "description": "Zanzibar Gem",
+            "imagePath": "/images/bell-pepper-small.png",
+            "imagePath1": "/images/bell-pepper-big.png",
+            "essential-1": "Need To Know: ",
+            "essential-2": "Does best in room temp (60 - 70  F)",
+            "essential-3": " Grows best in bright filtered light",
+            "essential-4": " Allow solid to become dry to touch between watering days",
+            "whatNotToDo-1": "What Not To Do: ",
+            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
+            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
+            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
+
+            "schedules": {
+                "note": "(1 cup of water ever 2 - 3 weeks)",
+                "days": ["Wednesday", "Friday"]
+            }
+        },
+        {
+            "headimagePath": "/images/headimage.png",
+            "name": "ZZ Plant",
+            "id": "4",
+            "description": "Zanzibar Gem",
+            "imagePath": "/images/bell-pepper-small.png",
+            "imagePath1": "/images/bell-pepper-big.png",
+            "essential-1": "Need To Know: ",
+            "essential-2": "Does best in room temp (60 - 70  F)",
+            "essential-3": " Grows best in bright filtered light",
+            "essential-4": " Allow solid to become dry to touch between watering days",
+            "whatNotToDo-1": "What Not To Do: ",
+            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
+            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
+            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
+
+            "schedules": {
+                "note": "(1 cup of water ever 2 - 3 weeks)",
+                "days": ["Wednesday", "Friday"]
+            }
+        },
+        {
+            "name": "Bell Pepper",
+            "id": "5",
+            "description": "Capsicum",
+            "imagePath": "/images/zz-small.png",
+            "imagePath1": "/images/zz-big.png",
+            "essential-1": "Need To Know: ",
+            "essential-2": " Peppers need a lot of sunlight in order in order to produce healthy fruit",
+            "essential-3": " Start your pepper seeds indoors 8 - 10 weeks before spring in order to prevent your plant from the winter frosty months",
+            "essential-4": " Needs 1 - 2 inches of water per week",
+            "whatNotToDo-1": "What Not To Do: ",
+            "whatNotToDo-2": " Do not keep your plant seedlings outside. Peppers seeds need warmth in order to germinate or grow properly",
+            "whatNotToDo-3": " Do not keep your pepper in the shade, it loves lots of sunlight ",
+            "whatNotToDo-4": " Do not transplant your bell pepper until you are sure the frosty season is over. Bell peppers must be in tempuratures above 50 degrees F once outdoors",
+
+            "schedules": {
+                "note": "(Water 1 - 2 inches per week)",
+                "days": ["Tuesday", "Thursday", "Saturday"]
+            }
+        },
+        {
+            "name": "Cactus",
+            "id": "6",
+            "description": "Silet Gem",
+            "imagePath": "/images/cactus.jpg",
+            "imagePath1":"/images/cactus.jpg",
+            "essential-1": "Does best in room temp (60 - 70  F",
+            "essential-2": "Grows best in bright filtered light",
+            "essential-3": "Allow solid to become dry to touch between watering days",
+            "whatNotToDo-1": "Does not do well in cold temp (45 F and below",
+            "whatNotToDo-2": "Avoid harsh, direct sunlight ",
+            "whatNotToDo-3": "Avoid over watering! This plant does better with less water ",
+
+            "schedules": {
+                "note": "(Water = 2 inches every other week)",
+                "days": ["Sunday"]
+            }
+        },
+        {
+            "headimagePath": "/images/headimage.png",
+            "name": "ZZ Plant",
+            "id": "7",
+            "description": "Zanzibar Gem",
+            "imagePath": "/images/bell-pepper-small.png",
+            "imagePath1": "/images/bell-pepper-big.png",
+            "essential-1": "Need To Know: ",
+            "essential-2": "Does best in room temp (60 - 70  F)",
+            "essential-3": " Grows best in bright filtered light",
+            "essential-4": " Allow solid to become dry to touch between watering days",
+            "whatNotToDo-1": "What Not To Do: ",
+            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
+            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
+            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
+
+            "schedules": {
+                "note": "(1 cup of water ever 2 - 3 weeks)",
+                "days": ["Wednesday", "Friday"]
+            }
+        },
+        {
+            "name": "Bell Pepper",
+            "id": "8",
+            "description": "Capsicum",
+            "imagePath": "/images/zz-small.png",
+            "imagePath1": "/images/zz-big.png",
+            "essential-1": "Need To Know: ",
+            "essential-2": " Peppers need a lot of sunlight in order in order to produce healthy fruit",
+            "essential-3": " Start your pepper seeds indoors 8 - 10 weeks before spring in order to prevent your plant from the winter frosty months",
+            "essential-4": " Needs 1 - 2 inches of water per week",
+            "whatNotToDo-1": "What Not To Do: ",
+            "whatNotToDo-2": " Do not keep your plant seedlings outside. Peppers seeds need warmth in order to germinate or grow properly",
+            "whatNotToDo-3": " Do not keep your pepper in the shade, it loves lots of sunlight ",
+            "whatNotToDo-4": " Do not transplant your bell pepper until you are sure the frosty season is over. Bell peppers must be in tempuratures above 50 degrees F once outdoors",
+
+            "schedules": {
+                "note": "(Water 1 - 2 inches per week)",
+                "days": ["Tuesday", "Thursday", "Saturday"]
+            }
+        },
+        {
+            "name": "Cactus",
+            "id": "9",
+            "description": "Silet Gem",
+            "imagePath": "/images/cactus.jpg",
+            "imagePath1":"/images/cactus.jpg",
+            "essential-1": "Does best in room temp (60 - 70  F",
+            "essential-2": "Grows best in bright filtered light",
+            "essential-3": "Allow solid to become dry to touch between watering days",
+            "whatNotToDo-1": "Does not do well in cold temp (45 F and below",
+            "whatNotToDo-2": "Avoid harsh, direct sunlight ",
+            "whatNotToDo-3": "Avoid over watering! This plant does better with less water ",
+
+            "schedules": {
+                "note": "(Water = 2 inches every other week)",
+                "days": ["Sunday"]
+            }
+        },
+        {
+            "headimagePath": "/images/headimage.png",
+            "name": "ZZ Plant",
+            "id": "10",
+            "description": "Zanzibar Gem",
+            "imagePath": "/images/bell-pepper-small.png",
+            "imagePath1": "/images/bell-pepper-big.png",
+            "essential-1": "Need To Know: ",
+            "essential-2": "Does best in room temp (60 - 70  F)",
+            "essential-3": " Grows best in bright filtered light",
+            "essential-4": " Allow solid to become dry to touch between watering days",
+            "whatNotToDo-1": "What Not To Do: ",
+            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
+            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
+            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
+
+            "schedules": {
+                "note": "(1 cup of water ever 2 - 3 weeks)",
+                "days": ["Wednesday", "Friday"]
             }
         }
     ]
