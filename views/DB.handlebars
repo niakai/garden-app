@@ -176,7 +176,7 @@
                 plantImg.addEventListener('click', function () {
                     const plantId = plantImg.dataset.value;
 
-                    $.post("http://localhost:3000/add", { plantId: plantId }, function (data) {
+                    $.post("/add", { plantId: plantId }, function (data) {
                         if (data === 'done') {
                             console.log("success");
                         }
