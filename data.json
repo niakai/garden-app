@@ -62,20 +62,19 @@
     ],
     "DB": [
         {
-            "headimagePath": "/images/headimage.png",
-            "name": "ZZ Plant",
+            "name": "Aloe Vera",
             "id": "1",
-            "description": "Zanzibar Gem",
-            "imagePath": "/images/bell-pepper-small.png",
+            "description": "Aloe Barbadensis",
+            "imagePath": "/images/aloevera-plant.png",
             "imagePath1": "/images/bell-pepper-big.png",
             "essential-1": "Need To Know: ",
-            "essential-2": "Does best in room temp (60 - 70  F)",
-            "essential-3": " Grows best in bright filtered light",
-            "essential-4": " Allow solid to become dry to touch between watering days",
+            "essential-2": "Needs bright indirect sunlight",
+            "essential-3": "Make sure to choose a pot that has drainage holes and is as wide as it is deep",
+            "essential-4": "Water every 3 to 4 weeks",
             "whatNotToDo-1": "What Not To Do: ",
-            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
-            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
-            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
+            "whatNotToDo-2": "Do not leave your aloe plant outside if it will be below 55 degrees",
+            "whatNotToDo-3": "Avoid over watering",
+            "whatNotToDo-4": "Do not fertilize more than once a month",
 
             "schedules": {
                 "note": "(1 cup of water ever 2 - 3 weeks)",
@@ -83,20 +82,19 @@
             }
         },
         {
-            "headimagePath": "/images/headimage.png",
-            "name": "ZZ Plant",
+            "name": "Bell Pepper",
             "id": "2",
-            "description": "Zanzibar Gem",
-            "imagePath": "/images/bell-pepper-small.png",
-            "imagePath1": "/images/bell-pepper-big.png",
+            "description": "Capsicum",
+            "imagePath": "/images/zz-small.png",
+            "imagePath1": "/images/zz-big.png",
             "essential-1": "Need To Know: ",
-            "essential-2": "Does best in room temp (60 - 70  F)",
-            "essential-3": " Grows best in bright filtered light",
-            "essential-4": " Allow solid to become dry to touch between watering days",
+            "essential-2": " Peppers need a lot of sunlight in order in order to produce healthy fruit",
+            "essential-3": " Start your pepper seeds indoors 8 - 10 weeks before spring in order to prevent your plant from the winter frosty months",
+            "essential-4": " Needs 1 - 2 inches of water per week",
             "whatNotToDo-1": "What Not To Do: ",
-            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
-            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
-            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
+            "whatNotToDo-2": " Do not keep your plant seedlings outside. Peppers seeds need warmth in order to germinate or grow properly",
+            "whatNotToDo-3": " Do not keep your pepper in the shade, it loves lots of sunlight ",
+            "whatNotToDo-4": " Do not transplant your bell pepper until you are sure the frosty season is over. Bell peppers must be in tempuratures above 50 degrees F once outdoors",
 
             "schedules": {
                 "note": "(1 cup of water ever 2 - 3 weeks)",
@@ -104,11 +102,10 @@
             }
         },
         {
-            "headimagePath": "/images/headimage.png",
-            "name": "ZZ Plant",
+            "name": "Birds of Paradise",
             "id": "3",
-            "description": "Zanzibar Gem",
-            "imagePath": "/images/bell-pepper-small.png",
+            "description": "Strelitzia",
+            "imagePath": "/images/birdsOfParadise.png",
             "imagePath1": "/images/bell-pepper-big.png",
             "essential-1": "Need To Know: ",
             "essential-2": "Does best in room temp (60 - 70  F)",
@@ -125,31 +122,10 @@
             }
         },
         {
-            "headimagePath": "/images/headimage.png",
-            "name": "ZZ Plant",
-            "id": "4",
-            "description": "Zanzibar Gem",
-            "imagePath": "/images/bell-pepper-small.png",
-            "imagePath1": "/images/bell-pepper-big.png",
-            "essential-1": "Need To Know: ",
-            "essential-2": "Does best in room temp (60 - 70  F)",
-            "essential-3": " Grows best in bright filtered light",
-            "essential-4": " Allow solid to become dry to touch between watering days",
-            "whatNotToDo-1": "What Not To Do: ",
-            "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
-            "whatNotToDo-3": " Avoid harsh, direct sunlight ",
-            "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
-
-            "schedules": {
-                "note": "(1 cup of water ever 2 - 3 weeks)",
-                "days": ["Wednesday", "Friday"]
-            }
-        },
-        {
-            "name": "Bell Pepper",
+            "name": "Jade Plant",
             "id": "5",
-            "description": "Capsicum",
-            "imagePath": "/images/zz-small.png",
+            "description": "Crassula Ovata",
+            "imagePath": "/images/jade-plant.png",
             "imagePath1": "/images/zz-big.png",
             "essential-1": "Need To Know: ",
             "essential-2": " Peppers need a lot of sunlight in order in order to produce healthy fruit",
@@ -166,10 +142,10 @@
             }
         },
         {
-            "name": "Cactus",
+            "name": "Kumquat Tree",
             "id": "6",
-            "description": "Silet Gem",
-            "imagePath": "/images/cactus.jpg",
+            "description": "Citrus Japonica",
+            "imagePath": "/images/kumquat-plant.png",
             "imagePath1":"/images/cactus.jpg",
             "essential-1": "Does best in room temp (60 - 70  F",
             "essential-2": "Grows best in bright filtered light",
@@ -184,11 +160,10 @@
             }
         },
         {
-            "headimagePath": "/images/headimage.png",
-            "name": "ZZ Plant",
+            "name": "Lavender",
             "id": "7",
-            "description": "Zanzibar Gem",
-            "imagePath": "/images/bell-pepper-small.png",
+            "description": "Lavandula",
+            "imagePath": "/images/lavender-plant.png",
             "imagePath1": "/images/bell-pepper-big.png",
             "essential-1": "Need To Know: ",
             "essential-2": "Does best in room temp (60 - 70  F)",
@@ -205,10 +180,10 @@
             }
         },
         {
-            "name": "Bell Pepper",
+            "name": "Lemon Tree",
             "id": "8",
-            "description": "Capsicum",
-            "imagePath": "/images/zz-small.png",
+            "description": "Citrus x Limon",
+            "imagePath": "/images/lemon-plant.png",
             "imagePath1": "/images/zz-big.png",
             "essential-1": "Need To Know: ",
             "essential-2": " Peppers need a lot of sunlight in order in order to produce healthy fruit",
@@ -225,10 +200,10 @@
             }
         },
         {
-            "name": "Cactus",
+            "name": "Pomegranate",
             "id": "9",
-            "description": "Silet Gem",
-            "imagePath": "/images/cactus.jpg",
+            "description": "Punica Granatum",
+            "imagePath": "/images/poma-plant.png",
             "imagePath1":"/images/cactus.jpg",
             "essential-1": "Does best in room temp (60 - 70  F",
             "essential-2": "Grows best in bright filtered light",
@@ -243,11 +218,10 @@
             }
         },
         {
-            "headimagePath": "/images/headimage.png",
-            "name": "ZZ Plant",
+            "name": "Sunflower",
             "id": "10",
-            "description": "Zanzibar Gem",
-            "imagePath": "/images/bell-pepper-small.png",
+            "description": "Helianthus",
+            "imagePath": "/images/sunflower-plant.png",
             "imagePath1": "/images/bell-pepper-big.png",
             "essential-1": "Need To Know: ",
             "essential-2": "Does best in room temp (60 - 70  F)",
@@ -263,5 +237,6 @@
                 "days": ["Wednesday", "Friday"]
             }
         }
+        
     ]
 }
