@@ -43,7 +43,7 @@ app.get("/calendar", calendar.view);
 app.get("/login", login.view);
 
 app.get("/plant/:id", plant.view);
-app.post("/plant/add", plant.add);
+app.post("/add", index.addPlant);
 
 // Example route
 // app.get('/users', user.list);
