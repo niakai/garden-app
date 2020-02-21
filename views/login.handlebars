@@ -1,42 +1,38 @@
 <html>
 
 <head>
-    <title>Login</title>
-    <meta charset='utf-8' />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"> </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    	.label {
+	<title>Login</title>
+	<meta charset='utf-8' />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/bootstrap.js"> </script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.label {}
+	</style>
+	<script>
+		$(document).ready(function () {
+			$("button").click(() => {
+				localStorage.setItem("username", "guest")
 
-    	}
+				window.location = "/";
+			});
+		})
+	</script>
 
-    	
 
-
-    </style>	
-
-    <!--<script>
-         $(document).ready(function () {
-         	$(".dashboad-link").click(() => {
-         		window.location.href = "/"
-         	});	
-         })
-    </script>    -->
 </head>
 
 <body>
-	<form>
-  		<label for="username">Username:</label>
-  		<input type="text" id="username" name="username"><br><br>
-  		<label for="password">Password:</label>
-  		<input type="text" id="password" name="password"><br><br>
-  		<button name="submit" onclick="window.location.href = "./routes/index.js" "value="Submit">Login</button>
-		<body style="background-color:powderblue;">
-  		<!--<a class="dashboad-link">Submit</a> -->
-	</form>
 
-	<p>Please enter a valid account.</p>
-</body>
+	<label for="username">Username:</label>
+	<input type="text" id="username" name="username"><br><br>
+	<label for="password">Password:</label>
+	<input type="text" id="password" name="password"><br><br>
+	<button name="submit" onclick="window.location.href = " ./routes/index.js" "value=" Submit">Login</button>
+
+	<body style="background-color:powderblue;">
+
+		<p>Please enter a valid account.</p>
+	</body>
 
 </html>
