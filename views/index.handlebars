@@ -169,25 +169,33 @@
     <script>
         $(document).ready(function () {
             // Handler for .ready() called.
-            $('.plant-wrapper').children('img').get().forEach((plantImg) => {
-                plantImg.addEventListener('click', function () {
-                    const plantId = plantImg.dataset.value;
-                    if (plantId) {
-                        window.location += `plant/${plantId}`
-                    }
+
+            if (!localStorage.getItem("username")) {
+                window.location += "login"
+            } else {
+                $('.plant-wrapper').children('img').get().forEach((plantImg) => {
+                    plantImg.addEventListener('click', function () {
+                        const plantId = plantImg.dataset.value;
+                        if (plantId) {
+                            window.location += `plant/${plantId}`
+                        }
+                    });
                 });
-            });
 
-            $(".calendar-link").click(() => {
-                window.location.href = "/calendar"
-            });
+                $(".calendar-link").click(() => {
+                    window.location.href = "/calendar"
+                });
 
 
-            $(".login-link").click(() => {
-                window.location.href = "/login"
-            });
+                $(".login-link").click(() => {
+                    window.location.href = "/login"
+                });
 
+            }
         })
+
+
+
         /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
         function openNav() {
             document.getElementById("mySidebar").style.width = "70%";
