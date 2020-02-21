@@ -21,7 +21,6 @@ exports.addPlant = function(req, res) {
 
             data.plants.push(plantToAdd);
 
-            console.log(data.plants)
         } else {
             console.error("No Body in the'req'");
         }

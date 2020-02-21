@@ -35,6 +35,12 @@
             width: 50%;
         }
 
+        .plant-wrapper:active {
+            opacity: 0.5;
+        }
+
+        .clicked-text {}
+
         .container {
             display: flex;
             flex-direction: column;
@@ -166,6 +172,13 @@
             height: 60px;
             float: right;
         }
+
+        body {
+
+            font-family: didot;
+            background-color: beige;
+            margin-left: 1.5rem;
+        }
     </style>
 
     <script>
@@ -175,12 +188,17 @@
             $('.plant-wrapper').children('img').get().forEach((plantImg) => {
                 plantImg.addEventListener('click', function () {
                     const plantId = plantImg.dataset.value;
+                    const plantName = plantImg.dataset.name;
 
-                    $.post("/add", { plantId: plantId }, function (data) {
-                        if (data === 'done') {
+                    try {
+                        $.post("/add", { plantId: plantId }, function (data) {
                             console.log("success");
-                        }
-                    });
+                        });
+                        window.alert(`Add ${plantName} to my plants`)
+                    } catch (err) {
+                        console.err(err)
+                    }
+
 
 
                 });
@@ -209,48 +227,47 @@
     </script>
 </head>
 
-<body>
+<body style="background-color:beige;">
 
-    <body style="background-color:beige;">
 
-        <div class="container">
-            <!-- Sidebar -->
-            <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="/" class="dashboad-link">My Plant Profiles</a>
-                <a href="/calendar" class="calendar-link">Calendar</a>
-                <a href="/login" class="login-link">Login</a>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/" class="dashboad-link">My Plant Profiles</a>
+            <a href="/calendar" class="calendar-link">Calendar</a>
+            <a href="/login" class="login-link">Login</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+
+
+
+        <div class="mid-container">
+
+
+            <div class="dashboard-header">
+                <span class="special">Discover Plants</span>
+                <img src="/images/headimage.png" alt="Flowers in Chania" width="20px" height="20px">
             </div>
 
-            <div id="main">
-                <button class="openbtn" onclick="openNav()">&#9776;</button>
-            </div>
+            <div class="plants-wrapper">
 
-            <!-- /#sidebar-wrapper -->
-            <div class="mid-container">
-
-
-                <div class="dashboard-header">
-                    <span class="special">Discover Plants</span>
-                    <img src="/images/headimage.png" alt="Flowers in Chania" width="20px" height="20px">
-                    <!--class="headimage"-->
+                {{#each DB}}
+                <div class="plant-wrapper">
+                    <img src={{imagePath}} class="avatar" data-value={{id}} data-name={{name}} alt="">
+                    <span class="specialname">{{name}}</span>
                 </div>
-
-                <div class="plants-wrapper">
-
-                    {{#each DB}}
-                    <div class="plant-wrapper">
-                        <img src={{imagePath}} class="avatar" data-value={{id}} alt="">
-
-                        <span class="specialname">{{name}}</span>
-                    </div>
-                    {{/each}}
-                </div>
-
+                {{/each}}
             </div>
 
         </div>
 
-    </body>
+    </div>
+
+</body>
 
 </html>
