@@ -256,26 +256,6 @@
                 "days": ["Sunday"]
             }
         }
-        // {
-        //     "name": "Sunflower",
-        //     "id": "11",
-        //     "description": "Helianthus",
-        //     "imagePath": "/images/sunflower-plant.png",
-        //     "imagePath1": "/images/sunflower-plant.png",
-        //     "essential-1": "Need To Know: ",
-        //     "essential-2": "Does best in room temp (60 - 70  F)",
-        //     "essential-3": " Grows best in bright filtered light",
-        //     "essential-4": " Allow solid to become dry to touch between watering days",
-        //     "whatNotToDo-1": "What Not To Do: ",
-        //     "whatNotToDo-2": " Does not do well in cold temp (45 F and below",
-        //     "whatNotToDo-3": " Avoid harsh, direct sunlight ",
-        //     "whatNotToDo-4": " Avoid over watering! This plant does better with less water ",
-
-        //     "schedules": {
-        //         "note": "(1 cup of water ever 2 - 3 weeks)",
-        //         "days": ["Wednesday", "Friday"]
-        //     }
-        // }
 
     ]
 }
