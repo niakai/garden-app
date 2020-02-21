@@ -8,12 +8,17 @@
 
 body {
 
-  font-family: Arial;
+  font-family: didot;
   background-color: beige;
+  margin-left: 1.5rem;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.searchBar {
+  transform: scale(1) translate(50px, 10%);
 }
 
 form.searchBar input[type=text] {
@@ -23,11 +28,12 @@ form.searchBar input[type=text] {
   float: left;
   width: 55%;
   background: #f1f1f1;
+  border-radius: 10px;
 }
 
 form.searchBar button {
   float: left;
-  width: 20%;
+  width: 15%;
   padding: 10px;
   background:salmon;
   color: white;
@@ -35,6 +41,9 @@ form.searchBar button {
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
+  border-radius: 10px;
+  transform: scale(1) translate(-25px, -1%)
+
 }
 
 form.searchBar button:hover {
