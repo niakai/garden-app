@@ -6,6 +6,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/bootstrap.js"> </script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/facebook.js"> </script>
 	<style>
 		.label {}
 		#username {
@@ -52,6 +53,7 @@
 		})
 	</script>
 
+
 	<script>
 		$(document).ready(function () {
 			$("facebookLogin").click(() => {
@@ -84,23 +86,6 @@
 
 	</script>
 
-	<script>
-		FB.getLoginStatus(function(response) {
-    		statusChangeCallback(response);
-		});
-
-		response {
-    		status: 'connected',
-    		authResponse: {
-        	accessToken: '...',
-        	expiresIn:'...',
-        	signedRequest:'...',
-        	userID:'...'
-    		}
-		}
-
-	</script>
-	
 
 </head>
 
