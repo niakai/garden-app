@@ -184,6 +184,7 @@
                     const plantName = plantImg.dataset.name;
 
                     try {
+
                         $.post("/add", { plantId: plantId }, function (data) {
                             console.log("success");
                         });
